@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+Dirk Hoogland opdracht pizzacalculator 
+<html>
+<head>
+
+<head>
+	<body>
+
+  		<script>
+
+  
+
+
+  var pizzasmall = prompt ("hoeveel small pizza's wilt u? een kost 4 euro"); /** dit vraagt hoeveel small pizza's de klant wilt en vertelt de prijs **/
+
+  var pizzamedium = prompt ("hoeveel medium pizza's wilt u? een kost 6 euro"); /** dit vraagt hoeveel medium pizza's de klant wilt en vertelt de prijs **/ 
+
+  var pizzalarge = prompt ("hoeveel large pizza's wilt u? een kost 8 euro "); /** dit vraagt hoeveel large pizza's de klant wilt en vertelt de prijs **/ 
+
+alert ( (pizzasmall) + " small " + (pizzamedium) + " medium " + (pizzalarge) + " large ");
+
+   const PRICESMALL = 4
+   const PRICEMEDIUM = 6
+   const PRICELARGE = 8
+/**dit is de const met de prijs van elke pizza waarmee later wordt gerekent **/ 
+
+
+  pizzasmall = Number (pizzasmall);
+  pizzamedium = Number (pizzamedium);
+  Pizzalarge = Number (pizzalarge);
+/** hier wordt het antwoord van de klant in een nummer gezet zodat er mee gerekent kan worden **/ 
+
+
+  var totalprice  = pizzasmall * PRICESMALL + pizzamedium * PRICEMEDIUM + pizzalarge * PRICELARGE
+/** hier worden de prijzen bij elkaar op getelt **/
+
+
+  document.write ( (totalprice ) +  "  euro")
+/** dit schrijft de prijs **/
+
+	</script>
+  	</body>
+  </head>
